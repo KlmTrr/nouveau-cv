@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="output.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body class="min-h-screen  dark:bg-black dark:text-white justify-center">
+    <header
+      class="bg-teal-900 text-white sticky top-0 z-10 mb-20 flex flex-row items-center space-between"
+    >
+    <label for="home" class=" p-4 h-20  w-1/12 flex items-center ">
+      <a title="home" href="#home" >
+        <!-- home icon-->
+        <div class="  bg-white w-8 h-2 rotate-45 translate-x-5 translate-y-2 rounded"></div>
+        <div class=" bg-white w-8 h-2 -rotate-45 rounded"></div>
+        
+      </a>
+    </label>
+      <section class="max-w-4wl mx-auto p-4 flex justify-between items-center w-5/6">
+        
+          
+        
+        <div class="">
+        <nav class="hidden md:block space-x-8 text-xl" aria-label="main"">
+          <a
+            href="#formation"
+            class="hover:opacity-80 "
+            >Formation</a
+          >
+          <a
+            href="#experience"
+            class="hover:opacity-80 "
+            >Expériences</a
+          >
+          <a
+            href="#competences"
+            class="hover:opacity-80"
+            >Compétences</a
+          >
+          <a href="#contact" class="w-full text-center py-6 hover:opacity-70"
+          >Contact</a
+        >
+        </nav>
+      </div>
+      <bouton class="md:hidden translate-x-7"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+      </svg></bouton>
+
+      </div>
+      </section>
+      <section
+        id="mobile-menu"
+        class="absolute top-68 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden"
+      >
+         <!-- &times; -->
+        <nav
+          aria-label="mobile"
+          class="flex flex-col min-h-screen items-center py-8"
+        >
+        
+          <a href="#formation" class="w-full text-center py-6 hover:opacity-70"
+            >Formation</a
+          >
+          <a
+            href="#experiences"
+            class="w-full text-center py-6 hover:opacity-70"
+            >Expériences</a
+          >
+          <a href="#competences" class="w-full text-center py-6 hover:opacity-70"
+            >Compétences</a
+          >
+          <a href="#contact" class="w-full text-center py-6 hover:opacity-70"
+          >Contact</a
+        >
+        </nav>
+      </section>
+    </header>
+    <main class="max-w-5xl mx-auto">
+      <section id="home" class=" max-w-3-xl scroll-mt-20 flex flex-col justify-center p-6 items-center gap-8 mb-12 ">
+        
+        <img alt="photo CV" class="w-3/5 h-auto rounded-2xl  border-b-indigo-950 border-2 mt-"src="/img/curriculum.jpg"/>
+        <h1 class="font-medium text-6xl dark:text-white mb-20">Clément Traore</h1>
+        <h2 class="max-w-full text-5xl md:text-8xl font-bold text-center md:text-left text-slate-900 dark:text-white">
+          Dernières réalisations
+        </h2>
+        <ul class=" list-none w-full md:w-screen my-12 flex flex-col md:flex-row justify-between md:justify-evenly gap-8 ">
+          <li class="  h-80 md:h-100 mt-10 md:w-1/3 w-full  flex-col md:mt-3 flex dark:bg-black border border-solid border-slate-900 dark:border-gray-100 bg-white  rounded-3xl shadow-xl text-4xl ">
+            <h3 class="text-4xl text-white w-full bg-teal-900 rounded-3xl h-1/4 flex justify-center items-center">Projet 1</h3>
+            <p class="hidden md:block text-3xl text-center mt-2 text-slate-700 dark:text-slate-500 h-3/4">
+              texte
+            </p>
+          </li>
+          <li class="  h-80 md:h-100 mt-10 md:w-1/3 w-full  flex-col md:mt-3 flex dark:bg-black border border-solid border-slate-900 dark:border-gray-100 bg-white  rounded-3xl shadow-xl text-4xl  ">
+            <h3 class="text-4xl text-white w-full bg-teal-900 rounded-3xl h-1/4 flex justify-center items-center ">Projet 2</h3>
+            <p class="hidden md:block text-3xl text-center mt-2 text-slate-700 dark:text-slate-500 h-3/4">
+              texte
+            </p>
+          </li>
+          
+        </ul>
+        <a href="https://github.com/KlmTrr?tab=repositories"> <img alt="GitHub" class="dark:invert w-60 h-40"src="/img/GitHub-Emblem.png"></a>
+      </section>
+      <section id="presentation" class=" max-w-3-xl scroll-mt-20 flex flex-col justify-center p-6 items-center gap-8 mb-12 ">
+        <h2 class="max-w-full text-5xl   font-bold text-center md:text-5xl md:text-left text-slate-900 dark:text-white">
+          Présentation
+        </h2>
+        <ul class=" list-none w-full mt-12 mb-6 flex flex-row justify-evenly md:gap-8 ">
+          <li class="  h-60  mt-10 md:w-2/5 w-1/4 min-w-min md:mt-3 flex dark:bg-black  border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl text-4xl md:flex-row justify-center ">
+            <h3 class="text-4xl text-center text-slate-500 dark:text-white top-1">Passioné</h3>
+            <p class="hidden md:block text-3xl text-center mt-2 text-slate-700 dark:text-slate-500">
+            </p>
+          </li>
+          <li class="  h-60  mt-10 md:w-2/5 w-1/4 min-w-min md:mt-3 flex dark:bg-black  border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl text-4xl md:flex-row justify-center ">
+            <h3 class="text-4xl text-center text-slate-500 dark:text-white top-1">Créatif</h3>
+            <p class="hidden md:block text-3xl text-center mt-2 text-slate-700 dark:text-slate-500">
+            </p>
+          </li>
+          <li class="  h-60  mt-10 md:w-2/5 w-1/4 min-w-min md:mt-3 flex dark:bg-black  border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl text-4xl md:flex-row justify-center ">
+            <h3 class="text-4xl text-center text-slate-500 dark:text-white top-1">Motivé</h3>
+            <p class="hidden md:block text-3xl text-center mt-2 text-slate-700 dark:text-slate-500">
+            </p>
+          </li>
+        </ul>
+        <p class="hidden md:block text-3xl p-8 mt-2 text-black dark:text-slate-500 md:w-2/3 mx-auto">Toujours intéressé par les nouvelles technologies, j'ai décidé de me lancer et de me former
+          après mes études en cinéma. Je maîtrise le développement front-end. J'ai été formé au Back-end et à la POO en C#, SQL, et en utlisant ces outils 
+          je cherche à me perfectionner pour continuer mon chemin pour devenir <span class="text-yellow-500 font-medium">Développeur Fullstack </span>
+</p>
+      </section>
+      <hr class="mx-auto bg-gray-700 dark:bg-slate-200  w-2/3 md:w-full" />
+      <section id="formation" class="w-3-xl scroll-mt-20 flex flex-col justify-center p-6 items-center gap-3 mb-8 md:flex-row md:flex-wrap">
+        <h2 class="max-w-full text-5xl font-bold text-center md:text-5xl md:text-left text-slate-900 dark:text-white">
+          Toujours en recherche de nouveauté. <br>
+          J'ai appris la programmation ces deux dernières années.
+        </h2>
+        <ul class=" list-none mx-auto my-12 flex flex-col items-center gap-3">
+          <li class="dark:text-yellow-400 font-medium self-center font-serif text-4xl "> 2023</li>
+          <li class=" md:h-80 h-40  mt-1 w-2/3 md:w-5/6  md:mt-3 flex  dark:bg-black items-center border border-solid  dark:border-gray-100 border-lime-900 rounded-3xl shadow-xl text-4xl md:flex-row ">
+            <div class="flex justify-center items-center rounded-3xl h-full w-full md:w-1/3 bg-zinc-700 ">
+            <h3 class="  text-center p-5 text-3xl items-center text-white ">Formation Ingénieur C# / .NET / Cobol</h3>
+          </div>
+            <p class="hidden md:block text-3xl p-8 mt-2 text-black dark:text-slate-500 md:w-2/3">J'ai été introduit à une logique de conception nouvelle : diagrammes
+                      J'ai compris que je devais appréhender le problème et planifier avant de construire.
+            </p>
+          </li>
+          <li class="  dark:text-yellow-400 font-medium self-center font-serif text-4xl ">2015-2022<li>
+          <li class=" md:h-80 h-40  mt-1 w-2/3 md:w-5/6  md:mt-3 flex  dark:bg-black items-center border border-solid  dark:border-gray-100 border-lime-900 rounded-3xl shadow-xl text-4xl md:flex-row ">
+            <div class="flex justify-center items-center rounded-3xl h-full w-full md:w-1/3 bg-zinc-700 ">
+            <h3 class="text-4xl text-center text-white">Master Cinéma</h3>
+          </div>
+            <p class="hidden md:block text-3xl p-8 mt-2 text-black dark:text-slate-500 md:w-2/3">J'ai appris à faire de la recherche, à réaliser
+              et à monter un film.
+            </p>
+          </li>
+          
+        </ul>
+      </section>
+      <hr class="mx-auto bg-gray-700 dark:bg-slate-200  w-2/3 md:w-full" />
+      <section id="experiences" class=" w-3-xl scroll-mt-20 flex flex-col justify-center p-6 items-center gap-3 mb-8 md:flex-row md:flex-wrap">
+        <h2 class="max-w-full text-5xl  font-bold text-center md:text-5xl md:text-left text-slate-900 dark:text-white">
+         Mes expériences professionnelles
+        </h2>
+          <ul class=" list-none mx-auto my-12 flex flex-col items-center gap-3 ">
+            <li class="dark:text-yellow-400 font-medium self-center font-serif text-4xl "> 2021-2022</li>
+            <li class=" md:h-80 h-40  mt-1 w-2/3 md:w-5/6  md:mt-3 flex  dark:bg-black items-center border border-solid  dark:border-gray-100 border-lime-900 rounded-3xl shadow-xl text-4xl md:flex-row  ">
+              <div class="flex justify-center items-center rounded-3xl h-full w-full md:w-1/3 bg-zinc-700 ">
+              <h3 class="text-4xl text-center text-white">Auto entrepreneur</h3>
+              </div>
+              <p class="hidden md:block text-3xl p-8 mt-2 text-black dark:text-slate-500 md:w-2/3">Je préfèrerais travailler en équipe.
+              </p>
+            </li>
+            <li class="  dark:text-yellow-400 font-medium self-center font-serif text-4xl ">2015-2020</p>
+            <li class=" md:h-80 h-40  mt-1 w-2/3 md:w-5/6  md:mt-3 flex  dark:bg-black items-center border border-solid  dark:border-gray-100 border-lime-900 rounded-3xl shadow-xl text-4xl md:flex-row ">
+              <div class="flex justify-center items-center rounded-3xl h-full w-full md:w-1/3 bg-zinc-700 ">
+              <h3 class="text-4xl text-center text-white">Vente, Grande Distribution, Restauration</h3>
+            </div>
+              <p class="hidden md:block text-3xl p-8 mt-2 text-black dark:text-slate-500 md:w-2/3">Ces expériences m'ont fait entrer dans le monde du travail, et ré
+              </p>
+            </li>
+            
+          </ul>
+      </section>
+      <hr class="mx-auto bg-gray-700 dark:bg-slate-200  w-2/3 md:w-full" />
+      <section id="presentation" class=" max-w-3-xl scroll-mt-20 flex flex-col justify-center p-6 items-center gap-8 mb-12 ">
+        <h2 class="max-w-full text-5xl  font-bold text-center md:text-5xl md:text-left text-slate-900 dark:text-white">
+          Mes compétences
+        </h2>
+        <ul class=" list-none  mt-12 mb-6 grid grid-flow-row grid-cols-2 grid-rows-2 lg:flex-wrap  lg:flex md:flex-row lg:justify-around  w-full lg:w-screen gap-4">
+          <li class="lg:w-1/5 flex-col mt-10  md:mt-3 flex dark:bg-black  border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl text-4xl justify-center ">
+            <h3 class="text-4xl text-center text-slate-500 dark:text-white top-1">Web</h3>
+            <div class=" text-slate-700 dark:text-slate-500 flex flex-col items-center ">
+              <ul class="list-disc translate-x-2">
+              <li>HTML, JS, Npm</li>
+              <li>CSS Tailwind</li>
+              <li>Gérer des Requêtes et Réponses Http</li>
+            </ul>
+            </div>
+          </li>
+          <li class=" lg:w-1/5 flex-col mt-10  md:mt-3 flex dark:bg-black  border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl text-4xl items-center ">
+            <h3 class="text-4xl text-center text-slate-500 dark:text-white top-1">Programmation</h3>
+            <div class=" text-slate-700 dark:text-slate-500 flex flex-col items-center ">
+              <ul class="list-disc translate-x-2">
+              <li>POO</li>
+              <li>C#</li>
+              <li>Git</li>
+            </ul>
+            </div>
+          </li>
+          <li class=" lg:w-1/5 flex-col mt-10  md:mt-3 flex dark:bg-black  border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl text-4xl justify-center ">
+            <h3 class="text-4xl text-center text-slate-500 dark:text-white top-1">Vidéo</h3>
+            <div class=" text-slate-700 dark:text-slate-500 flex flex-col items-center ">
+              <ul class="list-disc translate-x-2">
+              <li>Réalisation</li>
+              <li>Montage vidéo</li>
+              <li>Montage son</li>
+            </ul>
+            </div>
+          </li>
+          <li class="  lg:w-1/5 flex-col mt-10  md:mt-3 flex dark:bg-black  border border-solid border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl text-4xl justify-center ">
+            <h3 class="text-4xl text-center text-slate-500 dark:text-white top-1">Langues</h3>
+            <div class=" text-slate-700 dark:text-slate-500 flex flex-col items-center ">
+              <ul class="list-disc translate-x-2">
+              <li>Anglais</li>
+              <li>Allemand</li>
+              <li>Japonais</li>
+            </ul>
+            </div>
+          </li>
+        </ul>
+        <ul class="mt-20 mx-30 grid grid-flow-row grid-cols-7 items-center center gap-2">
+          <li><img alt="html" src="/img/html5.png" class=""/></li>
+          <li><img alt="html" src="/img/css.png" class=""/></li>
+          <li><img alt="html" src="/img/js.png" class=""/></li>
+          <li><img alt="html" src="/img/c.png" class=""/></li>
+          <li><img alt="html" src="/img/dotnet.png" class=""/></li>
+          <li><img alt="html" src="/img/node.png" class=""/></li>
+          <li><img alt="html" src="/img/GitHub-Emblem.png" class="dark:invert"/></li>
+        </ul>
+        <p class="hidden md:block text-3xl p-8 mt-2 text-black dark:text-slate-500 md:w-2/3 mx-auto">Toujours intéressé par les nouvelles technologies, j'ai décidé de me lancer et de me former
+          après mes études en cinéma. Je maîtrise le développement front-end. J'ai été formé au Back-end et à la POO en C#, SQL, et en utlisant ces outils 
+          je cherche à me perfectionner pour continuer mon chemin pour devenir <span class="text-yellow-500 font-medium">Développeur Fullstack </span>
+</p>
+       
+        
+      </section>
+      
+    </main>
+    <footer id="footer" class="w-full bottom-0 bg-slate-500 text-white flex flex-col"> 
+
+        <h2 class="text-5xl  mt-10  max-w-md font-bold text-center md:text-5xl md:text-left text-slate-900 dark:text-white self-center">
+          Contact
+        </h2>
+      
+      <section id="contact" class="scroll-mt-20 flex flex-row  p-6 gap-3 mb-2 w-full justify-between">
+      
+        <ul class="grid w-1/2 grid-col  gap-5 border-collapse dark:text-white text-black text-3xl ml-0 ">
+          <li><span>📧 </span> clement.traor@gmail.com</li>
+          <li><span>☎️ </span> 07 61 47 14 67</li>
+        </ul>
+       <span class=" text-right self-end text-xl italic font-serif">2023&copy; <br>Clément Traore </span> 
+      </section>
+     </footer>
+  </body>
+</html>
